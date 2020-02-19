@@ -10,8 +10,11 @@ public class StringCharacterStream {
     public static void main(String argsp[]) {
         String s = "UUDDUUUDD";
 
+        //how to traverse a string character by character
         long uCount = s.chars().filter(c -> c == 'U').count();
         System.out.println("U count is " + uCount);
+
+        s.chars().filter(c -> c == 'U').count();
 
         //join collection
         //join character array
